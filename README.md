@@ -15,39 +15,10 @@ Consolidar partidas, seleções, artilheiros e fixtures da Copa do Mundo 2026;
 Criar tabelas dimensionais e fatos na camada Gold;
 Disponibilizar os dados para análise no Power BI;
 Demonstrar na prática conceitos de Data Engineering, Data Modeling e Business Intelligence.
-🏗️ Arquitetura do Projeto
-                  ┌─────────────────────┐
-                  │   Dados de Origem   │
-                  │ CSV / Google Drive  │
-                  └──────────┬──────────┘
-                             │
-                             ▼
-                    ┌────────────────┐
-                    │     BRONZE     │
-                    │ Dados Brutos   │
-                    └───────┬────────┘
-                            │
-                            ▼
-                    ┌────────────────┐
-                    │     SILVER     │
-                    │ Tratamento     │
-                    │ Padronização   │
-                    │ Validação      │
-                    └───────┬────────┘
-                            │
-                            ▼
-                    ┌────────────────┐
-                    │      GOLD      │
-                    │ Modelo Dim.    │
-                    │ Fatos + Dim.   │
-                    └───────┬────────┘
-                            │
-                            ▼
-                    ┌────────────────┐
-                    │    POWER BI    │
-                    │ Dashboard      │
-                    │ KPIs & Análises│
-                    └────────────────┘
+🏗️ Arquitetura do Projeto:
+
+Dados de Origem CSV / Google Drive ------ BRONZE / Dados Brutos -------- SILVER / Tratamento, Padronização, Validação ------- GOLD / Modelo Dim. Fatos + Dim. ------- POWER BI / Dashboard, KPIs & Análises
+                  
 🥉 Camada Bronze
 
 Responsável pela ingestão dos dados em seu formato original, preservando os dados de origem para posterior processamento.
