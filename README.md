@@ -43,8 +43,8 @@ silver_editions
 silver_teams_2026
 silver_top_scorers
 silver_fixtures_2026
-🥇 Camada Gold
 
+🥇 Camada Gold
 A camada Gold transforma os dados tratados em estruturas analíticas utilizando conceitos de modelo dimensional e Star Schema.
 
 Principais dimensões:
@@ -67,6 +67,7 @@ Ranking FIFA;
 Técnico;
 Melhor resultado em Copas;
 Participação na Copa de 2026.
+
 🛠️ Tecnologias utilizadas
 Python
 PySpark
@@ -93,27 +94,31 @@ Análise por fase da competição;
 Análise por estádio e localização;
 Comparação histórica entre Copas do Mundo;
 Acompanhamento dos fixtures da Copa do Mundo 2026.
-🚀 Conceitos de Data Engineering aplicados
 
-Este projeto demonstra na prática conhecimentos em:
-
-Arquitetura Medalhão;
-ETL / ELT;
-Data Cleaning;
-Data Quality;
-Transformação distribuída com PySpark;
-Modelagem dimensional;
-Star Schema;
-Surrogate Keys;
-DataFrames;
-Window Functions;
-Joins;
-Unions;
-Tratamento de dados históricos;
-Preparação de dados para BI.
-📁 Estrutura do Repositório
-
-🎯 Resultado
+🚀 Conceitos de Data Engineering aplicados:
+🏗️ Arquitetura Medalhão — Bronze → Silver → Gold
+🔄 ETL / ELT
+🧹 Data Cleaning
+✅ Data Quality
+⚡ Processamento distribuído com PySpark
+🗂️ Data Lake
+🎯 Modelagem dimensional
+⭐ Star Schema
+🔑 Surrogate Keys
+📊 DataFrames
+🪟 Window Functions
+🔗 Joins
+🔀 Unions
+📅 Tratamento de dados históricos
+🧩 Integração de múltiplas fontes
+📈 Preparação de dados para BI
+🎛️ Orquestração de pipelines
+📝 Logging de execução
+⏱️ Controle de tempo de execução
+🚨 Tratamento de erros e falhas
+🔍 Validação das etapas do pipeline
+🔁 Execução sequencial de notebooks
+🧱 Arquitetura modular
 
 O projeto demonstra a construção de uma solução completa de dados, partindo de arquivos brutos até um modelo analítico estruturado e preparado para visualização no Power BI.
 
